@@ -1,0 +1,115 @@
+*
+{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main1 .row
+{
+    text-align: center;
+}
+
+.main1 .row img{
+   height: 50px;
+   width: 100px;
+   text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+
+  .topnav input[type=text] {
+    float: left;
+    padding: 5px 100px;
+    border: 1px dotted #461200;
+    margin-top: 8px;
+    margin-left: 60px;
+    font-size: 17px;
+  }
+
+  .topnav i
+  {
+      background: #461200;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+
+.navbar a:hover{
+    background-color:#265728 ;
+}
+
+.main1 p
+{
+float: right;
+margin-right: 7%;
+font-size: x-large;
+}
+
+.card{
+    transition: .4s;
+    box-shadow: 2px 4px 4px black;
+}
+
+.card:hover{
+
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.section1
+{
+    padding-top: 20px;
+    background-color: #DEDEDE;
+}
+
+.section1 img{
+    border-radius: 7px;
+}
+
+.section2 a{
+    color:#28A745 ;
+}
+
+.section2 a:hover
+{
+    color: red;
+}
+
+.main5 {
+    background-color: #DEDEDE;
+    padding: 1%;  
+}
+footer p {
+    font-size: 0.8rem;
+    line-height: 20px;
+    text-align: center;
+}
+.social-menus{
+    text-align: center;
+}
+.icon-style {
+    color: black;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
+.icon-style:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+

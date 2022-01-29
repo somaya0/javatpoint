@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*
+{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+   
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+/* header start  */
+
+.navbar{
+    padding: 1% 10%;
+    background-color: #EEEEEE;
+}
+
+.navbar i{
+   font-size: large;
+}
+
+.nav-link{
+    margin: 5px 10px;
+    color: black;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    padding: 5px 150px;
+color: whitesmoke;
+background-color: #212529;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .topnav input[type=text] {
+    float: left;
+    padding: 5px 70px;
+    border: 1px dotted #461200;
+    margin-top: 8px;
+    margin-left: 90px;
+    font-size: 17px;
+  }
+
+  .topnav i
+  {
+
+      margin-left: 30px;
+      background: #461200;
+      color: white;
+      padding-top: 7px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .section1 .nav-link
+  {
+      margin-top: -10%;
+      margin-bottom: -10%;
+
+  }
+
+  .section1 .nav-link:hover
+  {
+      background-color:#265728 ;
+      color: whitesmoke;
+  }
+
+  .section2 .section3
+  {
+     font-size: large;
+
+  }
+  table, th, td {
+border: 2px solid #c7ccbe9c;
+    border-collapse: collapse;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  th{
+      background-color: #C7CCBE;
+  }
+
+  tr:nth-child(even) {
+    background-color: #c7ccbe10;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #c7ccbe73;
+  }
+
+  .section4
+  {
+      font-size: large;
+      padding: 5px 20px;
+  }
+
+  .section4 a:hover{
+color: red;
+  }
+
+
+  footer {
+    background: #060930;
+    padding: 1%;
+    color: white;   
+}
+footer p {
+    font-size: 0.8rem;
+    line-height: 20px;
+    text-align: center;
+}
+.social-menus{
+    text-align: center;
+}
+.icon-style {
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
+.icon-style:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+

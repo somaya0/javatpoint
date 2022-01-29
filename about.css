@@ -1,0 +1,31 @@
+
+p{
+    font-size: larger;
+}
+/* about-me starts */
+#about-me{
+    padding: 4% 10%;
+    background: #96D4D4;
+}
+
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
